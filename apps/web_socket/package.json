@@ -1,0 +1,22 @@
+{
+  "name": "web_socket",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "npx tsc -b",
+    "dev": "node ./dist/index.js"
+  },
+  "dependencies": {
+    "@repo/typescript-config": "workspace:*",
+    "web-socket": "^0.0.0",
+    "ws": "^8.21.0"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/ws": "^8.18.1"
+  }
+}

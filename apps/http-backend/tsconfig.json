@@ -1,0 +1,13 @@
+{
+  "extends": "@repo/typescript-config/base.json",
+    "compilerOptions": {
+        "rootDir": "./src",
+        "outDir": "./dist",
+        "types": ["node"]
+    },
+    "exclude": ["dist", "prisma", "prisma.config.ts"]
+
+
+}
+// also you need to add this @repo/typescript-config as dependency in package.json of every app that is extending it 
+// if using npm keep the dependency as "@repo/typescript-config":"*" for pnpm  "@repo/typescript-config":"workspace:*"
