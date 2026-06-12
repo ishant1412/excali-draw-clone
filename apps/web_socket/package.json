@@ -6,12 +6,14 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "npx tsc -b",
-    "dev": "node ./dist/index.js"
+    "start":"node ./dist/index.js",
+    "dev": "npm run build && npm run start"
   },
   "dependencies": {
     "@repo/typescript-config": "workspace:*",
     "web-socket": "^0.0.0",
-    "ws": "^8.21.0"
+    "ws": "^8.21.0",
+    "@repo/database":"workspace:*"
   },
   "keywords": [],
   "author": "",

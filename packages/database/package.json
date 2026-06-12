@@ -1,0 +1,9 @@
+{
+    "name": "@repo/database",
+    "exports": {
+        ".": "./src/index.ts"
+    },
+    "dependencies": {
+        "@repo/database": "link:"
+    }
+}

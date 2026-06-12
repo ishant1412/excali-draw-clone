@@ -1,0 +1,9 @@
+{
+    "name": "@repo/utils",
+    "exports": {
+        ".": "./export.ts"
+    },
+    "dependencies": {
+        "@repo/utils": "link:"
+    }
+}
